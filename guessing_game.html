@@ -1,39 +1,10 @@
 <!DOCTYPE HTML>
 <head>
-<title>My Super Fun Game Lol</title>
+<title>My Super Fun Game Where You Learn Three Facts About Me</title>
 </head>
 <body>
-	<h1>My Super Fun Guessing Game (hint: the answer is 53)</h1>
+	<h1>This is a game where we can get to know each other. Or at least you can get to know me...well, three factoids about me.  Let's do this!</h1>
 </body>
-	<script>
-var number = 53;
-var guess = prompt("Guess a number");
-	if (guess == number) {
-
-	var cheater = prompt("You got it right! Were you cheating? (yes or no)");
-	if (cheater == "yes") {
-		alert("At least you admitted it...");
-	} else {
-		alert("LIAR! You disgust me.");
-	}
-}
-else if (guess > number) {
-	alert("bummer. Your guess is too high! Why not cheat? It's so easy!");
-	var guess2 = prompt("Come on. Give it a try ;)");
-}
-
- if (guess2 == number) {
-	alert("CHEATER! That's really sad. What are you, Bernie Madoff? I'm going to call you Bernie.");
-	var guess3 = prompt("OK Bernie. Guess again!")
-} else if (guess < number) {
-	alert ("nope. too low. Refresh and try again.");
-} else if (guess > number) {
-	alert("nope, too high. Refresh and try again.");
-} else {
-	alert("did you input a number?");
-}
-if (guess3 == number) {
-	alert("OK Bernie. You win. You'll go far in this world.")
-}
+	<script src="javascript/game2.js">
  </script>
 </body>
