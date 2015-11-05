@@ -33,7 +33,21 @@ if (numberOfBalls == 3) {
 } else if (numberOfBalls < 3) {
 	alert("You don't think much of my juggling skills, huh?");
 } else if (numberOfBalls > 3) {
-	alert("I'm flattered, but that's a bit high.")
+	alert("I'm flattered, but that's a bit high.");
 } else {
-	alert("Well...I'm not even sure what you mean by that guess, but nice work anyway. Thanks for playing. Bye!")
+	alert("Well...I'm not even sure what you mean by that guess, but nice work anyway. Let's try some easier ones.");
 }
+
+var roads = prompt("How many roads must a man walk down?");
+
+if (roads == 42) {
+	alert("yep. That is the correct number of roads.");
+} else {
+	alert("nope.");
+}
+
+var whatTheHeck = prompt("What the heck?");
+
+alert ("That's correct. Secretly though, literally any answer would have sufficed. I just wanted you to go out on a high note. Thanks for playing!")
+
+
