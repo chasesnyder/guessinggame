@@ -1,3 +1,12 @@
+var questions = ["Where am I from?", "What's my favorite beer?", "Where do I live now?", "What's my favorite football team?", "How many roads must a man walk down?"]
+
+
+function firstQuestion() {
+	var answer1 = prompt("Where am I from?");
+
+}
+
+
 var answer1 = prompt("Where do you think I'm from?");
 console.log(answer1);
 if (answer1 === "Denver") {
