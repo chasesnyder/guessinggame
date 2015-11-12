@@ -30,8 +30,14 @@ newParaQ.id = "q" + numberOfQuestions;
 var newParaA = document.createElement('p');
 document.body.appendChild(newParaA);
 newParaA.id = "a" + numberOfQuestions;
+var image = 'http://www.slate.com/content/dam/slate/articles/health_and_science/wild_things/2013/10/131025_WILD_AdeliePenguin.jpg.CROP.promo-mediumlarge.jpg';
 newParaQ.innerHTML = "<strong>Question: </strong>" + questions[1];
 newParaA.innerHTML = "<strong>Your answer: </strong>" + answer;
+var newImg = document.createElement('div');
+newImg.id="pic" + numberOfQuestions;
+document.body.appendChild(newImg);
+newImg.innerHTML = "<img src='http://www.rosecityhedgehogs.com/uploads/ppet1_1456179c.jpg'>";
+console.log(newImg.innerHTML);
 }
 
 askQuestion();

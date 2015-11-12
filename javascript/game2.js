@@ -1,4 +1,29 @@
-var questions = ["Where am I from?", "What's my favorite beer?", "Where do I live now?", "What's my favorite football team?", "How many roads must a man walk down?"]
+function shuffle(array) {
+  var currentIndex = array.length, temporaryValue, randomIndex ;
+
+  // While there remain elements to shuffle...
+  while (0 !== currentIndex) {
+
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
+
+    // And swap it with the current element.
+    temporaryValue = array[currentIndex];
+    array[currentIndex] = array[randomIndex];
+    array[randomIndex] = temporaryValue;
+  }
+
+  return array;
+}
+
+function askQuestion(question) {
+	questions.shuffle
+	var answer = prompt(questions[1]);
+}
+
+// some questions about me
+var questions = ["Where am I from?", "What's my favorite beer?", "Where do I live now?", "What's my favorite football team?", "How many roads must a man walk down?"];
 
 
 function firstQuestion() {
